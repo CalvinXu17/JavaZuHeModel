@@ -13,5 +13,5 @@ public interface People {
 	
 	public float getChildSalaries();
 
-	public void deleteChild(String name);
+	public boolean deleteChild(String name);
 }

@@ -23,22 +23,15 @@ public class Emplyee implements People {
 	}
 	
 	@Override
-	public void deleteChild(String name) {
-		boolean suc = false;
+	public boolean deleteChild(String name) {
 		for(int i=0;i<childlist.size();i++) {
 			String ename = childlist.get(i).getInfo().getName();		
 			if(ename.equals(name)) {
 				childlist.remove(i);
-				suc = true;
-				break;
+				return true;
 			}
 		}
-		
-		if(suc) {
-			System.out.println("É¾³ý³É¹¦£¡");
-		} else {
-			System.out.println("É¾³ýÊ§°Ü£¡");
-		}
+		return false;
 	}
 
 	@Override
