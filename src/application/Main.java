@@ -49,18 +49,20 @@ public class Main {
 		t.showAllInfo();
 
 		Scanner scan = new Scanner(System.in);
-
 		while (true) {
-
-			System.out.println("选择功能:\n1:打印所有人员关系\n2:统计所有人员薪水和\n3:给员工添加下属\n4:删除员工\n5:查询员工");
+			System.out.println("选择功能:\n1:打印所有人员关系\n2:统计所有人员薪水和\n3:给员工添加下属\n4:删除员工\n5:查询员工\n0:退出");
 			int N = 0;
 			N = scan.nextInt();
 
+			if( N == 0)
+				break;
+			
 			switch (N) {
-
+				
 			}
 		}
 
+		scan.close();
 		// System.out.println(t.getAllSalary());
 
 		// t.addRootChild("侯杰", new Emplyee(new EmpluyeeInfo("123", 0,

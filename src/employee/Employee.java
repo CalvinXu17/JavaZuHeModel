@@ -54,5 +54,4 @@ public class Employee implements People {
 		}
 		return sum;
 	}
-
 }
