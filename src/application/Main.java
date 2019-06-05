@@ -11,6 +11,7 @@ import employee.Employee;
 import Method.travelAllitem;
 
 public class Main {
+	
 	public static void main(String[] args) {
 		// 实例化公司老板（1级职工）
 		Info bossinfo = new BossInfo("许老板", 1, 20000.0f);
