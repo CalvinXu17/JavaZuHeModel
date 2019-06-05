@@ -1,6 +1,6 @@
 package Interface;
 
-// 定义职工信息接口(有两种实现，分别为BossInfo和EmployeeInfo)
+// 定义职工信息接口(有两种实现,分别为BossInfo和EmployeeInfo)
 public interface Info {
 
 	public String getName(); //获取姓名

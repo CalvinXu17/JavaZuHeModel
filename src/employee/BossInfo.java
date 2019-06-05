@@ -34,4 +34,5 @@ public class BossInfo implements Info {
 	public void setLevel(int level) {
 		this.level = level;
 	}
+	
 }

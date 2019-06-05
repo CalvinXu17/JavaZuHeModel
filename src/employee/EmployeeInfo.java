@@ -35,5 +35,4 @@ public class EmployeeInfo implements Info {
 	public void setLevel(int level) {
 		this.level = level;
 	}
-
 }

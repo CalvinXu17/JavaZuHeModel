@@ -136,6 +136,7 @@ public class travelAllitem {
 		// 利用队列层序遍历找到员工并返回该员工对象
 		Q.offer(root);
 		while (!Q.isEmpty()) {
+			
 			People p = Q.poll();
 			String pname = p.getInfo().getName();
 			if (pname.equals(name)) {

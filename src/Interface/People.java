@@ -6,7 +6,7 @@ public interface People {
 
 	public void add(People peo); //添加下属
 
-	public List<People> getChild(); //获取下属的链表
+	public List<People> getChild(); //获取下属链表
 
 	public Info getInfo(); //获取个人信息
 
