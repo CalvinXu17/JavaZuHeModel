@@ -12,7 +12,6 @@ public class EmployeeInfo implements Info {
 	public EmployeeInfo(String name, int level, float salary) {
 		this.name = name;
 		this.level = level;
-
 		this.salary = salary;
 	}
 

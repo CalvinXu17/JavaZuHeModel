@@ -10,7 +10,7 @@ import Interface.People;
 public class Employee implements People {
 
 	// 组合模式使用:
-	private List<People> childlist; //组合所有下属的list
+	private List<People> childlist; // 组合所有下属的list
 	private Info info; // 组合员工信息
 
 	public Employee(Info info) {

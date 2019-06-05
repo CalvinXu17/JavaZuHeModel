@@ -10,4 +10,5 @@ public interface Info {
 	public float getSalary(); //获取薪水
 
 	public void setLevel(int level); //设置职工等级
+
 }
