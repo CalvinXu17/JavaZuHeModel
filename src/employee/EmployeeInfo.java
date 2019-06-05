@@ -2,6 +2,7 @@ package employee;
 
 import Interface.Info;
 
+// 实现Info接口，职工信息（薪水不加倍）
 public class EmployeeInfo implements Info {
 
 	private String name;

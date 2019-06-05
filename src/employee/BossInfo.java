@@ -2,6 +2,7 @@ package employee;
 
 import Interface.Info;
 
+// 实现Info接口，公司老板信息(薪水在基础上乘1.5)
 public class BossInfo implements Info {
 
 	private String name;

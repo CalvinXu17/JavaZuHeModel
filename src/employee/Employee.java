@@ -6,11 +6,12 @@ import java.util.List;
 import Interface.Info;
 import Interface.People;
 
+// 实现People接口，用于实例化公司员工对象
 public class Employee implements People {
 
-	private List<People> childlist;
-
-	private Info info;
+	// 组合模式使用:
+	private List<People> childlist; // 组合所有下属的list
+	private Info info; // 组合员工信息
 
 	public Employee(Info info) {
 		this.childlist = new ArrayList<People>();
@@ -44,14 +45,5 @@ public class Employee implements People {
 	public Info getInfo() {
 		// TODO Auto-generated method stub
 		return this.info;
-	}
-
-	@Override
-	public float getChildSalaries() {
-		float sum = 0.0f;
-		for (int i = 0; i < childlist.size(); i++) {
-			sum += childlist.get(i).getInfo().getSalary();
-		}
-		return sum;
 	}
 }
