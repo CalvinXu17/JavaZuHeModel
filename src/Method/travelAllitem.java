@@ -16,7 +16,7 @@ public class travelAllitem {
 		this.root = root;
 	}
 
-	// 删除某位员工 (递归查找并删除,并将要删除员工的子节点归并到被删除员工的父节点)
+	// 删除某位员工 (递归查找并删除,并将被删除员工的子节点归并到被删除员工的父节点)
 	public boolean deleteChild(String name, People roots) {
 		
 		People rroot = null;
