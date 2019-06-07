@@ -149,5 +149,4 @@ public class travelAllitem {
 		}
 		return null;
 	}
-	
 }
